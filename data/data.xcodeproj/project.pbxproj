@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678B0E36DBB44342729592A7 /* Pods_data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF628D013DB08C6EF115F10 /* Pods_data.framework */; };
 		8BBE4E8123EFE3D8009854D9 /* data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBE4E7723EFE3D8009854D9 /* data.framework */; };
 		8BBE4E8623EFE3D8009854D9 /* dataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4E8523EFE3D8009854D9 /* dataTests.swift */; };
 		8BBE4E8823EFE3D8009854D9 /* data.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBE4E7A23EFE3D8009854D9 /* data.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BBE4EE523EFE4EE009854D9 /* domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBE4EE123EFE4DD009854D9 /* domain.framework */; };
 		8BBE4EE623EFE4EE009854D9 /* domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBE4EE123EFE4DD009854D9 /* domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8BBE4F3823EFEFAF009854D9 /* UserRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4F3723EFEFAF009854D9 /* UserRepositoryImpl.swift */; };
+		8BBE4F3B23EFF012009854D9 /* RepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4F3A23EFF012009854D9 /* RepositoryAssembly.swift */; };
+		8BBE4F7923EFFF70009854D9 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4F7823EFFF70009854D9 /* ApiProvider.swift */; };
+		8BBE4F7C23EFFFC3009854D9 /* AccountDaoImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4F7B23EFFFC3009854D9 /* AccountDaoImpl.swift */; };
+		8BBE4F8323F0014D009854D9 /* AuthToken+mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4F8223F0014D009854D9 /* AuthToken+mappable.swift */; };
+		8BBE4F8523F0033F009854D9 /* SearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4F8423F0033F009854D9 /* SearchApi.swift */; };
+		8BBE4F8923F004B1009854D9 /* User+mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4F8823F004B1009854D9 /* User+mappable.swift */; };
+		8BBE4F8B23F00670009854D9 /* ApiAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4F8A23F00670009854D9 /* ApiAssembly.swift */; };
+		8BBE4F9323F0078C009854D9 /* Modules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE4F9223F0078C009854D9 /* Modules.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F4CA843C7DD497A7C9CF687 /* Pods-data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-data.debug.xcconfig"; path = "Target Support Files/Pods-data/Pods-data.debug.xcconfig"; sourceTree = "<group>"; };
+		7705A09F09C8002BA2952A1F /* Pods-data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-data.release.xcconfig"; path = "Target Support Files/Pods-data/Pods-data.release.xcconfig"; sourceTree = "<group>"; };
 		8BBE4E7723EFE3D8009854D9 /* data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBE4E7A23EFE3D8009854D9 /* data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
 		8BBE4E7B23EFE3D8009854D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +72,16 @@
 		8BBE4E8523EFE3D8009854D9 /* dataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTests.swift; sourceTree = "<group>"; };
 		8BBE4E8723EFE3D8009854D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BBE4EDB23EFE4DD009854D9 /* domain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = domain.xcodeproj; path = ../domain/domain.xcodeproj; sourceTree = "<group>"; };
+		8BBE4F3723EFEFAF009854D9 /* UserRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryImpl.swift; sourceTree = "<group>"; };
+		8BBE4F3A23EFF012009854D9 /* RepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryAssembly.swift; sourceTree = "<group>"; };
+		8BBE4F7823EFFF70009854D9 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		8BBE4F7B23EFFFC3009854D9 /* AccountDaoImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDaoImpl.swift; sourceTree = "<group>"; };
+		8BBE4F8223F0014D009854D9 /* AuthToken+mappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthToken+mappable.swift"; sourceTree = "<group>"; };
+		8BBE4F8423F0033F009854D9 /* SearchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchApi.swift; sourceTree = "<group>"; };
+		8BBE4F8823F004B1009854D9 /* User+mappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+mappable.swift"; sourceTree = "<group>"; };
+		8BBE4F8A23F00670009854D9 /* ApiAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAssembly.swift; sourceTree = "<group>"; };
+		8BBE4F9223F0078C009854D9 /* Modules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modules.swift; sourceTree = "<group>"; };
+		9BF628D013DB08C6EF115F10 /* Pods_data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BBE4EE523EFE4EE009854D9 /* domain.framework in Frameworks */,
+				678B0E36DBB44342729592A7 /* Pods_data.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +113,7 @@
 				8BBE4E8423EFE3D8009854D9 /* dataTests */,
 				8BBE4E7823EFE3D8009854D9 /* Products */,
 				8BBE4EE423EFE4EE009854D9 /* Frameworks */,
+				B9764165FC91D8F1F837F27F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +129,10 @@
 		8BBE4E7923EFE3D8009854D9 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				8BBE4F3923EFF007009854D9 /* di */,
+				8BBE4F7A23EFFF8B009854D9 /* dao */,
+				8BBE4F7423EFFF61009854D9 /* api */,
+				8BBE4F3423EFEF89009854D9 /* repository */,
 				8BBE4E7A23EFE3D8009854D9 /* data.h */,
 				8BBE4E7B23EFE3D8009854D9 /* Info.plist */,
 			);
@@ -140,8 +168,64 @@
 		8BBE4EE423EFE4EE009854D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BF628D013DB08C6EF115F10 /* Pods_data.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BBE4F3423EFEF89009854D9 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				8BBE4F3723EFEFAF009854D9 /* UserRepositoryImpl.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		8BBE4F3923EFF007009854D9 /* di */ = {
+			isa = PBXGroup;
+			children = (
+				8BBE4F9223F0078C009854D9 /* Modules.swift */,
+				8BBE4F8A23F00670009854D9 /* ApiAssembly.swift */,
+				8BBE4F3A23EFF012009854D9 /* RepositoryAssembly.swift */,
+			);
+			path = di;
+			sourceTree = "<group>";
+		};
+		8BBE4F7423EFFF61009854D9 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				8BBE4F7723EFFF66009854D9 /* dto */,
+				8BBE4F7823EFFF70009854D9 /* ApiProvider.swift */,
+				8BBE4F8423F0033F009854D9 /* SearchApi.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		8BBE4F7723EFFF66009854D9 /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				8BBE4F8223F0014D009854D9 /* AuthToken+mappable.swift */,
+				8BBE4F8823F004B1009854D9 /* User+mappable.swift */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		8BBE4F7A23EFFF8B009854D9 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				8BBE4F7B23EFFFC3009854D9 /* AccountDaoImpl.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		B9764165FC91D8F1F837F27F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F4CA843C7DD497A7C9CF687 /* Pods-data.debug.xcconfig */,
+				7705A09F09C8002BA2952A1F /* Pods-data.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BBE4E8B23EFE3D8009854D9 /* Build configuration list for PBXNativeTarget "data" */;
 			buildPhases = (
+				0177779C81BEB4CCED16022B /* [CP] Check Pods Manifest.lock */,
 				8BBE4E7223EFE3D8009854D9 /* Headers */,
 				8BBE4E7323EFE3D8009854D9 /* Sources */,
 				8BBE4E7423EFE3D8009854D9 /* Frameworks */,
@@ -207,6 +292,7 @@
 				TargetAttributes = {
 					8BBE4E7623EFE3D8009854D9 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					8BBE4E7F23EFE3D8009854D9 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -272,11 +358,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0177779C81BEB4CCED16022B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-data-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BBE4E7323EFE3D8009854D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BBE4F7C23EFFFC3009854D9 /* AccountDaoImpl.swift in Sources */,
+				8BBE4F9323F0078C009854D9 /* Modules.swift in Sources */,
+				8BBE4F7923EFFF70009854D9 /* ApiProvider.swift in Sources */,
+				8BBE4F3823EFEFAF009854D9 /* UserRepositoryImpl.swift in Sources */,
+				8BBE4F8323F0014D009854D9 /* AuthToken+mappable.swift in Sources */,
+				8BBE4F8523F0033F009854D9 /* SearchApi.swift in Sources */,
+				8BBE4F8923F004B1009854D9 /* User+mappable.swift in Sources */,
+				8BBE4F8B23F00670009854D9 /* ApiAssembly.swift in Sources */,
+				8BBE4F3B23EFF012009854D9 /* RepositoryAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +541,9 @@
 		};
 		8BBE4E8C23EFE3D8009854D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4CA843C7DD497A7C9CF687 /* Pods-data.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5H9DV8MZ3H;
@@ -438,6 +560,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = life.plank.media.bootstrap.data;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,7 +568,9 @@
 		};
 		8BBE4E8D23EFE3D8009854D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7705A09F09C8002BA2952A1F /* Pods-data.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5H9DV8MZ3H;
@@ -470,6 +595,7 @@
 		8BBE4E8F23EFE3D8009854D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H9DV8MZ3H;
 				INFOPLIST_FILE = dataTests/Info.plist;
@@ -488,6 +614,7 @@
 		8BBE4E9023EFE3D8009854D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H9DV8MZ3H;
 				INFOPLIST_FILE = dataTests/Info.plist;

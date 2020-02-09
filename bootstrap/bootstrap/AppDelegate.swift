@@ -6,15 +6,54 @@
 //  Copyright © 2020 Plank Media. All rights reserved.
 //
 
+import core
+import domain
+import data
+import feature
+import Swinject
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, PlankAppDelegate {
 
-
-
+    public let assembler: Assembler = {
+        var modules: [Assembly] = []
+        
+        modules.append(contentsOf: dataModules)
+        modules.append(contentsOf: featureModules)
+        
+        return Assembler(modules)
+    }()
+    
+    var window: UIWindow?
+    
+    func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
+        if #available(iOS 13.0, *) {
+            // In iOS 13 setup is done in SceneDelegate
+        }
+        else {
+            window = UIWindow(frame: UIScreen.main.bounds)
+            window?.rootViewController = SearchViewController.create()
+        }
+        
+        return true
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        if #available(iOS 13.0, *) {
+            UIApplication.shared.statusBarStyle = .darkContent
+        } else {
+            UIApplication.shared.statusBarStyle = .default
+        }
+        
+        if #available(iOS 13.0, *) {
+            // In iOS 13 setup is done in SceneDelegate
+        } else {
+            window!.makeKeyAndVisible()
+        }
+        
         return true
     }
 

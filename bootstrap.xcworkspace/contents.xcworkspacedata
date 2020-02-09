@@ -22,6 +22,9 @@
       </FileRef>
    </Group>
    <FileRef
-      location = "container:bootstrap/bootstrap.xcodeproj">
+      location = "group:bootstrap/bootstrap.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
