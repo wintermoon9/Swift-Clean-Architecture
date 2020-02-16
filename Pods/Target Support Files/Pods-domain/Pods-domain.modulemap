@@ -1,0 +1,6 @@
+framework module Pods_domain {
+  umbrella header "Pods-domain-umbrella.h"
+
+  export *
+  module * { export * }
+}
